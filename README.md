@@ -42,3 +42,4 @@ h) Passing system prompt and query wrapper with question + context to LLM and re
 
 
 ## Result 
+We tested our chatbot using 50 questions prepared by professional lawyers. The model achieved an average answer correctness of 0.603 and an average answer similarity of 0.924. These results are promising and indicate that developing a chatbot for providing consultations to civilians is indeed feasible.

@@ -10,7 +10,7 @@ This project aimed to test the possibility of creating a chatbot based on RAG fo
 - CrossEncoder ("DiTy/cross-encoder-russian-msmarco")
 - Groq, LLM ("llama3-70b-8192")
 
-##Algorithm
+## Algorithm
 - Data Preprocessing
 a) Splitting each book into short chunks by extracting each clause into a separate chunk, saving it in `chunks.json` ([chunk1, chunk2...]), while also saving in `metadata.json` ({chunk_id: {"book": book, "article_num": article_num, "link": book_link}) the name of the code, the article number from which the clause is taken, and a link to the book. And after this we need do separate processing of chunks longer than 2000 characters.
 b) Vectorizing each chunk
